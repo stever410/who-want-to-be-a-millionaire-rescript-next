@@ -7,4 +7,5 @@ type question = {
   correct_answer: string,
   difficulty: string,
   question: string,
+  incorrect_answers: array<string>,
 }
